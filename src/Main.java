@@ -1,6 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        int amount = 154, replenishment = 1001, bonus = 0;
+        int amount = 154;
+        int replenishment = 1001;
+        int bonus = 0;
         int finalAmount;
         if (replenishment > 1000) {
             bonus = replenishment / 100;
